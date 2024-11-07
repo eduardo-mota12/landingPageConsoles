@@ -1,61 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <style>
-            * {
-                padding: 0;
-                margin: 0;
-            }
-    
-            .conteiner {
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-    
-            .box {
-                position: relative;
-                width: 20%;
-                height: 20%;
-                background-color: beige;
-                border: 2px solid black;
-                color: rgb(34, 154, 170);
-                border-radius: 10px;
-                margin: 1em;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            
-                
-            }
-            
-             .box img{
-                position: relative;
-                width: 100%;
-                height: 100%;
-             }
-             
-             img{
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .conteiner {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .box {
+            position: relative;
+            width: 20%;
+            height: 20%;
+            background-color: beige;
+            border: 2px solid black;
+            color: rgb(34, 154, 170);
+            border-radius: 10px;
+            margin: 1em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        .box img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        img {
             height: 1200px;
             width: 1400px;
-             }
-            
-        </style>
-    </head>
-    
-    <body>
-        <main class="conteiner">
-            <div class="box"><img src="teclad.webp"/></div>
-           <div class="box"><img src="placa mae.webp"/></div>
-           <div class="box"><img src="4090.webp"/></div>
-        </main>
-        <img src="Black-Friday.webp"/>
-    </body>
-    
-    </html>
+        }
+    </style>
+</head>
+
+<body>
+    <main class="conteiner">
+        <div class="box"><img src="teclad.webp" /></div>
+        <div class="box"><img src="placa mae.webp" /></div>
+        <div class="box"><img src="4090.webp" /></div>
+        <div class="box"><img src="teclad.webp" /></div>
+        <div class="box"><img src="placa mae.webp" /></div>
+        <div class="box"><img src="4090.webp" /></div>
+        <div class="box"><img src="teclad.webp" /></div>
+        <div class="box"><img src="placa mae.webp" /></div>
+        <div class="box"><img src="4090.webp" /></div>
+    </main>
+    <img src="Black-Friday.webp" />
+</body>
+
+</html>
